@@ -4,10 +4,8 @@ function myFunction() {
 
     element.innerHTML = "New Heading";
 
+
 }
-
-​
-
 function myColorChange() {
 
     const element = document.getElementById("id01");
@@ -15,6 +13,11 @@ function myColorChange() {
     element.style.color = "red";
 }
 
-    function mojaFunkcja(){
+function mojaFunkcja() {
 
+    const clients =["Mango", "Polly", "Ajax"];
+  
+    for (let i = 0; i<clients.length; i +=1) {
+        console.log(clients[i]);
+    }
 }
